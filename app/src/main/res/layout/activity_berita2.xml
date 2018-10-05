@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hernanditoarya.aplikasiberita.berita2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="364dp"
+        android:layout_height="235dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/all"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="375dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Twice Siap Comeback Lagi Tak Lama Usai Rilis 'What Is Love?', Fans Sambut Antusias"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="backMessage"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="375dp"
+        android:layout_height="338dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text='Twice awal April lalu comeback dengan album bertajuk "What Is Love?". Girl grup yang digawangi oleh Jihyo cs itu pun sukses memecahkan rekor baru serta deretan piala di acara musik.  Menariknya, Twice rupanya tak butuh waktu lama untuk comeback. JYP Entertainment belum lama ini mengumumkan jika Tzuyu cs akan merilis album baru pertengahan Juli mendatang. Twice bahkan disebut sudah menyelesaikan proses syuting. "Twice belum lama ini menyelesaikan syuting MV baru mereka secara rahasia di Jepang. Saat ini, para member tinggal di Jepang dengan rencana melanjutkan promosi mereka pada pertengahan Juli. Meski begitu, tanggal pasti comeback belum bisa dikonfirmasi," tutur perwakilan JYP.  Kabar comeback Twice pada Juli mendatang ini pun langsung dibanjiri komentar netter. Tak sedikit netter yang menyambut antusias menantikan rilisan baru Nayeon cs.  "Benar-benar mengantisipasi comeback Twice yang sangat cepat pada Juli nanti. Kali ini, ayo lakukan yang terbaik lagi," tulis seorang netter. "Comeback Twice pada Juli akan luar biasa," imbuh netter lain.  "Ayo Twice. Mengantisipasi comeback pertama musim panas," lanjut netter lain. "Aku senang bisa melihat comeback Twice lagi," sambung netter lain. "Twice. Ayo jadi yang terbaik lagi dengan sembilan all kill berturut," pungkas netter lainnya.  Sementara itu, Twice saat ini juga tengah disibukkan dengan gelaran tur konser "Twiceland Zone 2 - Fantasy Park". Dahyun cs dijadwalkan akan berkunjung ke Indonesia tepatnya di Indonesia Convention Exhibition, Jakarta pada 25 Agustus mendatang. '
+        android:textAlignment="center"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</android.support.constraint.ConstraintLayout>
